@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1,h2,h3,p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  height: 32px;
+}
+select {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  height: 32px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-color: black;
+  background-color: rgb(3, 3, 80);
+  color: whitesmoke;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+
+.addtarefaBtn {
+  background-color: rgb(20, 20, 20);
+}
+
+.task-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-column {
+  width: 40%;
+  padding: 10px;
+}
